@@ -1,0 +1,11 @@
+[{
+	"prefix": "D-",
+	"id": 2,
+	"priority": "P3",
+	"type": "Debug existing webpage",
+	"summary": "A minor bug in a webpage created by our team",
+	"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lacinia massa aliquam nulla lobortis, ac vestibulum mi rutrum. In tortor urna, euismod at sagittis eu, lacinia condimentum ante. Fusce viverra pellentesque sodales. Nullam tincidunt nisi fermentum massa sodales, a mollis purus luctus. Aenean id velit ante. Mauris condimentum orci sit amet odio viverra feugiat. Donec eget sollicitudin velit. Sed et luctus dolor. ",
+	"assignee": "XYZ Company USA",
+	"projectManager": "Pink Panther",
+	"completeDate": "15/01/2015"
+}]

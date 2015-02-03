@@ -1,0 +1,11 @@
+[{
+	"prefix": "C-",
+	"id": 1,
+	"priority": "P1",
+	"type": "Webpage creation",
+	"summary": "A webpage requirement for an important client",
+	"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lacinia massa aliquam nulla lobortis, ac vestibulum mi rutrum. In tortor urna, euismod at sagittis eu, lacinia condimentum ante. Fusce viverra pellentesque sodales. Nullam tincidunt nisi fermentum massa sodales, a mollis purus luctus. Aenean id velit ante. Mauris condimentum orci sit amet odio viverra feugiat. Donec eget sollicitudin velit. Sed et luctus dolor. ",
+	"assignee": "ABC Company",
+	"projectManager": "Bordei Marian",
+	"completeDate": "24/12/2014"
+}]

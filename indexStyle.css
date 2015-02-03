@@ -1,0 +1,116 @@
+body {
+    background-image: url("images/img.jpg");
+    background-color: #cccccc;
+}
+/* header */
+.header {
+	width: 100%;
+	height:100px;
+	background-color: #383838;
+	display: inline-block;	
+	border-radius: 5px;
+	border: 2px solid #808080;
+	vertical-align: middle;
+	text-align: center;
+	position:absolute;
+}
+
+#logo {
+    float: left;
+    height:100px;
+}
+h1 {
+    color: white;
+    font-family: 'Signika',sans-serif;
+ 
+}
+/*  menu bar */
+.info {
+    padding-top:7%;
+	padding-left:5%;
+}
+
+#projs {
+    width: 180 px;
+    height: 50 px;
+    text-align: center;
+    color: #808080; 
+	font-size: 20px; 
+	font-family:'Signika',sans-serif;
+	margin-left: 35%; 
+}
+#projs:hover {
+    background-color: #E6E6FA;
+	}
+ul li {
+        display: inline;
+        padding: 20 px 40 px;
+    }
+a {      text-align: center;
+        color: red; 
+		font-size: 20px; 
+		font-family: 'Signika', sans-serif;
+		display:inline;	
+		padding:3%;
+}
+    /* divuri cu detalii*/
+.printed {
+        width: 100 % ;
+    }
+
+.infoProject {
+        border-collapse: collapse;
+        margin: 0 auto 5 rem;
+        width: 80 % ;
+        height: auto;
+        padding: 20 px;
+        margin: 20 px;
+    }
+
+th, td {
+    padding: 5px;
+}
+    /* div charturi */
+
+.DEV ,.QA {
+       height:auto;
+	   width:auto;
+	   position:relative;
+	    left:10%;
+	   float:left;
+	
+	   
+    }
+
+ path { 
+    stroke: steelblue;
+    stroke-width: 2;
+    fill: none;
+}
+
+.axis path,.axis line {
+    fill: none;
+    stroke: grey;
+    stroke-width: 1;
+    shape-rendering: crispEdges;
+}
+
+.arc path {
+  stroke: #fff;
+}
+
+ .axis {
+   font: 10px sans-serif;
+ }
+.legend {
+    font-size: 12px;
+  }
+  rect {
+    stroke-width: 2;
+  }
+svg{
+ 	border-radius: 5px;
+	border: 2px solid #808080;
+    margin: 15px;
+    padding: 7px;	
+}

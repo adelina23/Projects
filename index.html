@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+
+
+<head>
+
+    <script type="text/javascript" src="script/jquery-1.11.2.min.js"></script>
+    <script type="text/javascript" src="script/d3.min.js"></script>
+    <script type="text/javascript" src="script/printChart.js"></script>
+    <script type="text/javascript" src="script/descriptionProject.js"></script>
+    <link href="indexStyle.css" rel="stylesheet" />
+
+
+</head>
+
+<body onload="selectProject();">
+    <div class="header">
+        <img id="logo" src="images/logo.jpg" alt="statistics logo">
+        <h1>Projects</h1>
+    </div>
+    <div class="info">
+        <ul style="list-style-type:none">
+            <li>
+                <select id="projs" onchange="descriptionProject()"></select>
+            </li>
+            <li><a href="#" class="devChart">DEV</a>
+            </li>
+            <li><a href="#" class="qaChart">QA</a>
+            </li>
+        </ul>
+    </div>
+    <div class="printed">
+        <div class="infoProject">
+            <table class="infoTable"></table>
+        </div>
+        <div class="DEV"></div>
+        <br>
+        <div class="QA"></div>
+
+    </div>
+
+</body>
+
+</html>
